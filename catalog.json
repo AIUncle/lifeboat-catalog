@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updatedAt": "2026-10-10",
   "models": [
     {
@@ -27,7 +27,8 @@
         },
         {
           "name": "model.safetensors",
-          "size": 335450584
+          "size": 335450584,
+          "sha256": "392e8d466d56100ada00eb82031fb854297fc9e389b7d303eba3af114e87bce2"
         },
         {
           "name": "model.safetensors.index.json",
@@ -39,7 +40,8 @@
         },
         {
           "name": "tokenizer.json",
-          "size": 11422654
+          "size": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
         },
         {
           "name": "tokenizer_config.json",
@@ -77,7 +79,8 @@
         },
         {
           "name": "model.safetensors",
-          "size": 968080210
+          "size": 968080210,
+          "sha256": "0e86d9677e519323849eac1bc272caae88567a481ff188c431f70be543d9995f"
         },
         {
           "name": "model.safetensors.index.json",
@@ -89,7 +92,8 @@
         },
         {
           "name": "tokenizer.json",
-          "size": 11422654
+          "size": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
         },
         {
           "name": "tokenizer_config.json",
@@ -131,7 +135,8 @@
         },
         {
           "name": "model.safetensors",
-          "size": 1491575838
+          "size": 1491575838,
+          "sha256": "b56e80d50ddd4f082bab8ee26e0f238f12954f7b709332a86d8710de49708246"
         },
         {
           "name": "model.safetensors.index.json",
@@ -189,7 +194,8 @@
         },
         {
           "name": "model.safetensors",
-          "size": 1782040921
+          "size": 1782040921,
+          "sha256": "4750d95a2162829e127a94e83ac350d498d02070aab216c4687da48804a06ffb"
         },
         {
           "name": "model.safetensors.index.json",
@@ -205,7 +211,8 @@
         },
         {
           "name": "tokenizer.json",
-          "size": 11422654
+          "size": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
         },
         {
           "name": "tokenizer_config.json",
@@ -248,7 +255,8 @@
         },
         {
           "name": "model.safetensors",
-          "size": 1722271785
+          "size": 1722271785,
+          "sha256": "713fe7e5d3c3965f7106b0d0ee17615f7869c23c8d327996df8c1196fbcf07d5"
         },
         {
           "name": "model.safetensors.index.json",
@@ -264,7 +272,8 @@
         },
         {
           "name": "tokenizer.json",
-          "size": 19989343
+          "size": 19989343,
+          "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4"
         },
         {
           "name": "tokenizer_config.json",
@@ -311,7 +320,8 @@
         },
         {
           "name": "model.safetensors",
-          "size": 2398140572
+          "size": 2398140572,
+          "sha256": "5d22f208758cc75d7909d598aa1ce65eac70dd8e9c50ef9e5b1a98567a3a4ab3"
         },
         {
           "name": "model.safetensors.index.json",
@@ -327,7 +337,8 @@
         },
         {
           "name": "tokenizer.json",
-          "size": 32169626
+          "size": 32169626,
+          "sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f"
         },
         {
           "name": "tokenizer_config.json",
