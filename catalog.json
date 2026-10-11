@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updatedAt": "2026-10-10",
+  "version": 5,
+  "updatedAt": "2026-10-11",
   "models": [
     {
       "id": "qwen3-0.6b-4bit",
@@ -15,6 +15,13 @@
       "minMemoryGB": 3,
       "tier": "light",
       "description": "最轻量，任何 iPhone 都能跑。适合快速问答、翻译。",
+      "group": "Qwen",
+      "vendor": "Alibaba",
+      "tags": [],
+      "descriptions": {
+        "en": "Smallest and fastest; runs on any iPhone. Good for quick questions and translation.",
+        "ja": "最軽量で高速。どの iPhone でも動きます。ちょっとした質問や翻訳に。"
+      },
       "revision": "73e3e38d981303bc594367cd910ea6eb48349da8",
       "files": [
         {
@@ -68,6 +75,13 @@
       "minMemoryGB": 5,
       "tier": "balanced",
       "description": "速度与质量的平衡点，日常对话、总结、写作的默认选择。",
+      "group": "Qwen",
+      "vendor": "Alibaba",
+      "tags": [],
+      "descriptions": {
+        "en": "Balance of speed and quality; the default for everyday chat, summaries and writing.",
+        "ja": "速さと品質のバランス型。日常の会話・要約・文章作成の標準モデル。"
+      },
       "revision": "3b1b1768f8f8cf8351c712464f906e86c2b8269e",
       "files": [
         {
@@ -120,6 +134,13 @@
       "minMemoryGB": 5,
       "tier": "balanced",
       "description": "Liquid AI 的视觉模型，能看图说话，速度快。",
+      "group": "LFM",
+      "vendor": "Liquid AI",
+      "tags": [],
+      "descriptions": {
+        "en": "Liquid AI vision model: understands photos, and it is fast.",
+        "ja": "Liquid AI の視覚モデル。写真を理解でき、動作も速い。"
+      },
       "revision": "2a53fd7871a8f23c9d4427cf7a8d0dbb2e267605",
       "files": [
         {
@@ -171,6 +192,13 @@
       "minMemoryGB": 5,
       "tier": "balanced",
       "description": "Qwen3 视觉版，图片理解与 OCR 更强。",
+      "group": "Qwen",
+      "vendor": "Alibaba",
+      "tags": [],
+      "descriptions": {
+        "en": "Qwen3 vision edition with stronger image understanding and OCR.",
+        "ja": "Qwen3 の視覚版。画像理解と文字認識(OCR)が強い。"
+      },
       "revision": "9c4f5209e57b31f4b9dfba735de3fb983739c9cc",
       "files": [
         {
@@ -245,6 +273,15 @@
       "minMemoryGB": 7,
       "tier": "large",
       "description": "新一代原生多模态，文本与图片一个模型搞定。",
+      "group": "Qwen",
+      "vendor": "Alibaba",
+      "tags": [
+        "new"
+      ],
+      "descriptions": {
+        "en": "Next-gen native multimodal: text and images in one model.",
+        "ja": "次世代のネイティブマルチモーダル。テキストも画像もこれ一つで。"
+      },
       "revision": "93760be4f1f69842a46bc13dbdc0f19e291392a3",
       "files": [
         {
@@ -307,6 +344,15 @@
       "minMemoryGB": 8,
       "tier": "large",
       "description": "Google 为手机优化的 Gemma 4，多语言与推理都不错。",
+      "group": "Gemma",
+      "vendor": "Google",
+      "tags": [
+        "new"
+      ],
+      "descriptions": {
+        "en": "Google's Gemma 4 for phones; strong multilingual and reasoning.",
+        "ja": "Google のスマホ向け Gemma 4。多言語と推論に強い。"
+      },
       "revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
       "files": [
         {
