@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updatedAt": "2026-10-10",
   "models": [
     {
@@ -62,7 +62,8 @@
       "params": "1.7B",
       "capabilities": [
         "text",
-        "thinking"
+        "thinking",
+        "tools"
       ],
       "minMemoryGB": 5,
       "tier": "balanced",
@@ -238,7 +239,8 @@
       "capabilities": [
         "text",
         "vision",
-        "thinking"
+        "thinking",
+        "tools"
       ],
       "minMemoryGB": 7,
       "tier": "large",
@@ -291,49 +293,46 @@
       "sizeBytes": 1749079691
     },
     {
-      "id": "gemma-4-e2b-qat-mobile",
-      "repo": "mlx-community/gemma-4-E2B-it-qat-mobile",
+      "id": "gemma-4-e2b-4bit",
+      "repo": "mlx-community/gemma-4-e2b-it-4bit",
       "displayName": "Gemma 4 E2B",
       "family": "Gemma 4",
       "params": "E2B",
       "capabilities": [
         "text",
         "vision",
-        "thinking"
+        "thinking",
+        "tools"
       ],
-      "minMemoryGB": 7,
+      "minMemoryGB": 8,
       "tier": "large",
       "description": "Google 为手机优化的 Gemma 4，多语言与推理都不错。",
-      "revision": "0548ff6ddfb85b478bbb7d3294545e8974d47f1c",
+      "revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
       "files": [
         {
           "name": "chat_template.jinja",
-          "size": 18569
+          "size": 17336
         },
         {
           "name": "config.json",
-          "size": 7725
+          "size": 6395
         },
         {
           "name": "generation_config.json",
-          "size": 209
+          "size": 208
         },
         {
           "name": "model.safetensors",
-          "size": 2398140572,
-          "sha256": "5d22f208758cc75d7909d598aa1ce65eac70dd8e9c50ef9e5b1a98567a3a4ab3"
+          "size": 3550670554,
+          "sha256": "038e39a37a7667373d2c3991375446b10c96ae1d717a68674870343db376b76e"
         },
         {
           "name": "model.safetensors.index.json",
-          "size": 259403
-        },
-        {
-          "name": "preprocessor_config.json",
-          "size": 511
+          "size": 218323
         },
         {
           "name": "processor_config.json",
-          "size": 1689
+          "size": 1316
         },
         {
           "name": "tokenizer.json",
@@ -342,10 +341,10 @@
         },
         {
           "name": "tokenizer_config.json",
-          "size": 3728
+          "size": 2740
         }
       ],
-      "sizeBytes": 2430602032
+      "sizeBytes": 3583086498
     }
   ]
 }
